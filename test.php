@@ -41,9 +41,9 @@
  * @version   SVN: $Id: Math.php 4429 2009-01-04 15:39:45Z mapi $
  * @link      http://www.phpundercontrol.org/
  */
-function add($v1 , $v2)
+function ($v1 , $v2)
     {
-        return ($v1 + $v2);
+         ($v1 + $v2);
     }
 
 /**
