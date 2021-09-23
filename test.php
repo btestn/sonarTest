@@ -69,6 +69,13 @@ class PhpUnderControl_Example_Math
     public function add($v1 , $v2)
     {
         return ($v1 + $v2);
+        return ($v1 + $v2);
+        return ($v1 + $v2);
+        return ($v1 + $v2);
+        return ($v1 + $v2);
+        return ($v1 + $v2);
+        return ($v1 + $v2);
+        return ($v1 + $v2);
     }
 
     /**
@@ -172,6 +179,10 @@ class PhpUnderControl_Example_Math
         for ($i = 0; $i < $v6; $i++)
         {
             shuffle( $d );
+            $v7 = $v7 + $i * end( $d );
+            $v7 = $v7 + $i * end( $d );
+            $v7 = $v7 + $i * end( $d );
+            $v7 = $v7 + $i * end( $d );
             $v7 = $v7 + $i * end( $d );
         }
 
